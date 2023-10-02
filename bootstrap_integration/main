@@ -1,0 +1,19 @@
+from flask import Flask, render_template
+
+# Create a Flask web application
+app = Flask(__name__)
+
+
+@app.route('/')
+def idx():
+    return render_template('idx.html')
+
+
+@app.route('/t')
+def checkboxes():
+    return render_template("checkboxes.html")
+
+
+if __name__ == '__main__':
+    # Run the application on a local development server
+    app.run(debug=True)
