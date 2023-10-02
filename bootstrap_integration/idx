@@ -1,0 +1,6 @@
+{%extends 'base.html' %}
+
+{% block content %}
+<br> THIS IS MINE
+<br>OLO OLO
+{% endblock %}
