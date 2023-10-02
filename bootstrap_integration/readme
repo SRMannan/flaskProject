@@ -1,0 +1,4 @@
+This project uses the integration of bootstrap with flask
+
+the base file contains the overall outer layout of navbar
+then we have the idx and checkbox integrated in the navbar
