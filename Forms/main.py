@@ -5,7 +5,7 @@ from wtforms import StringField, SubmitField, PasswordField
 from wtforms.validators import DataRequired
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "PRS"  ##dont push password in github pls
+app.config['SECRET_KEY'] = "***"  ##dont push password in github 
 
 
 class LoginForm(FlaskForm):
